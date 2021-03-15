@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using RouletteAPI.DataAccess;
+using Microsoft.EntityFrameworkCore;
 
 namespace RouletteAPI
 {
@@ -25,6 +27,7 @@ namespace RouletteAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<RouleteApiContext>(opt => opt.UseInMemoryDatabase(databaseName: "rouletteDB"));
             services.AddControllers();
         }
 

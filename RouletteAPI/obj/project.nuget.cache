@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d/yRsVRjQ2p9q5hBRRfuqPJzJ8L9gQprYKCkc+sQENOffnkGzi6iY7d5uuZD4Or6tS07f+hUyXIAtu9eFeGbSA==",
+  "dgSpecHash": "V3h+NDaXQjAMHqYkl889MbY99o938WtOtCS5R2N2Son0A6W9eMyE6Mo0U9HCZUgDyG6otr1LCn9ZKopkSzpEFQ==",
   "success": true,
   "projectFilePath": "C:\\Code\\RouletteAPI\\RouletteAPI\\RouletteAPI.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.4\\microsoft.entityframeworkcore.abstractions.5.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.4\\microsoft.entityframeworkcore.analyzers.5.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.4\\microsoft.entityframeworkcore.design.5.0.4.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.4\\microsoft.entityframeworkcore.inmemory.5.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.4\\microsoft.entityframeworkcore.relational.5.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.4\\microsoft.entityframeworkcore.sqlserver.5.0.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.4\\microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
