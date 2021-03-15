@@ -19,6 +19,7 @@ namespace RouletteAPI.DataAccess
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder); 
             modelBuilder.Entity<Bet>()
                 .HasOne(b => b.Roulette)
                 .WithMany(r => r.Bets)
@@ -27,6 +28,10 @@ namespace RouletteAPI.DataAccess
                 .HasOne(b => b.User)
                 .WithMany(u => u.Bets)
                 .HasForeignKey(b => b.UserId);
+            modelBuilder.Entity<User>().HasData(
+                new User { UserId = 1, Name = "Andres", Credit = 10000},
+                new User { UserId = 2, Name = "Fernando", Credit = 10000 }
+                );
         }
     }
 }

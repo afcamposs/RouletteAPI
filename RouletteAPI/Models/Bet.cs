@@ -11,7 +11,8 @@ namespace RouletteAPI.Models
         public int BetId { get; set; }
         [Range(0, 36)]
         public int Number { get; set; }
-        public int Color { get; set; }
+        public string Color { get; set; }
+        [Range(0, 10000)]
         public float MoneyBet { get; set; }
         public float MoneyEarned { get; set; }
         public int RouletteId { get; set; }
